@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: devops-atividade-5
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo
+    username: user
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
